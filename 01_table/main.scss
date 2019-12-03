@@ -1,0 +1,23 @@
+
+table, td, tr {
+    border: 1 px solid black;
+    border-collapse: collapse;
+}
+td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+tr{
+    border: 2px solid black;
+    cursor: pointer;
+}
+tr:nth-child(2n) {
+    background: #db94f1; 
+}
+.two:hover {
+    background: rgb(211, 224, 25);
+}
+.fore:hover {
+    background: green;
+}
