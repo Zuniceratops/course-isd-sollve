@@ -1,3 +1,16 @@
+.form-gradient {
+  max-width: 905px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0;
+  background: #b95dca;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c6c2fd), to(#231e47));
+  background: linear-gradient(#c6c2fd, #231e47);
+  border-radius: 6px;
+  height: 1200px;
+}
+
 .form {
   max-width: 800px;
   margin-left: auto;
@@ -62,8 +75,9 @@ input::-webkit-input-placeholder {
 }
 
 .form-two-block .text-feild-two {
-  max-width: 335px;
-  display: inline-block;
+  max-width: 800px;
+  width: 100%;
+  background: #f1f2f7;
 }
 
 .two-block-top {
@@ -134,20 +148,83 @@ input::-webkit-input-placeholder {
 
 .text-middle-block-one {
   max-width: 100%;
-  width: 30%;
+  width: 75%;
   color: #aaadbc;
   background-color: white;
   border: 3px solid #aaadbc;
   margin-bottom: 30px;
+  margin-right: 34px;
   padding: 10px 0;
+  display: inline-block;
+}
+
+.text-middle-block-one input {
+  border: none;
+  width: 100%;
 }
 
 .text-middle-block-two {
   max-width: 100%;
-  width: 20%;
+  width: 10%;
   color: #aaadbc;
   background-color: white;
   border: 3px solid #aaadbc;
   padding: 10px 0;
+  display: inline-block;
+}
+
+.text-middle-block-two input {
+  border: none;
+  width: 100%;
+}
+
+.three-block-text {
+  margin-right: 14px;
+  max-width: 100%;
+  width: 30%;
+  display: inline-block;
+}
+
+.block-bottom:nth-child(2) {
+  margin-right: 35px;
+  max-width: 100%;
+  width: 35%;
+  display: inline-block;
+  color: #aaadbc;
+  background-color: white;
+  border: 3px solid #aaadbc;
+}
+
+.black-placeholder input::-webkit-input-placeholder {
+  color: black;
+}
+
+.block-bottom:nth-child(3) {
+  max-width: 100%;
+  width: 20%;
+  display: inline-block;
+  color: #aaadbc;
+  background-color: white;
+  border: 3px solid #aaadbc;
+}
+
+.block-bottom input {
+  border: none;
+  width: 100%;
+}
+
+.footer {
+  max-width: 800px;
+  width: 100%;
+  background: #f1f2f7;
+}
+
+button {
+  background: #b95dca;
+  padding: 20px 40px;
+  margin: 33px 610px;
+  border: none;
+  color: white;
+  font-size: 18px;
 }
 /*# sourceMappingURL=main.css.map */
