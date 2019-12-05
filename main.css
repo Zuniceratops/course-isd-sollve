@@ -1,0 +1,153 @@
+.form {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-title {
+  font-size: 30px;
+  padding: 38px 40px;
+  background: #f1f2f7;
+  border-bottom: 3px solid #dedde3;
+}
+
+.form-block {
+  padding: 34px 40px;
+  background: #f9faff;
+  border-bottom: 3px solid #dedde3;
+}
+
+.form-first-block .text-feild {
+  max-width: 335px;
+  display: inline-block;
+}
+
+.text-feild {
+  max-width: 100%;
+  width: 100%;
+  display: inline-block;
+  color: #aaadbc;
+  background-color: white;
+  border: 3px solid #aaadbc;
+  margin-bottom: 25px;
+  padding: 17px 0;
+}
+
+.text-feild:first-child {
+  margin-right: 34px;
+}
+
+.text-feild:nth-child(3) {
+  margin-right: 34px;
+}
+
+.text-feild input {
+  border: none;
+  width: 100%;
+}
+
+input::-webkit-input-placeholder {
+  color: #aaadbc;
+}
+
+.icon {
+  border-right: 1px solid #65c178;
+  margin-left: 7px;
+  line-height: 10px;
+}
+
+.icon::after {
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.form-two-block .text-feild-two {
+  max-width: 335px;
+  display: inline-block;
+}
+
+.two-block-top {
+  padding-bottom: 24px;
+}
+
+.text-feild-two:first-child {
+  margin-right: 34px;
+  max-width: 100%;
+  width: 35%;
+  display: inline-block;
+  color: #aaadbc;
+  background-color: white;
+  border: 3px solid #aaadbc;
+}
+
+.black-placeholder input::-webkit-input-placeholder {
+  color: black;
+}
+
+.text-feild-two:nth-child(2) {
+  margin-right: 34px;
+  max-width: 100%;
+  width: 30%;
+  display: inline-block;
+  color: #aaadbc;
+  background-color: white;
+  border: 3px solid #aaadbc;
+}
+
+.text-feild-two:nth-child(3) {
+  max-width: 100%;
+  width: 20%;
+  display: inline-block;
+  color: #aaadbc;
+  background-color: white;
+  border: 3px solid #aaadbc;
+}
+
+.text-feild-two input {
+  border: none;
+  width: 100%;
+}
+
+.two-block:last-child {
+  padding-bottom: 50px;
+}
+
+.three-block-top {
+  font-size: 17px;
+  padding-bottom: 30px;
+}
+
+.three-block-middle {
+  max-width: 100%;
+  width: 100%;
+  color: #aaadbc;
+  background-color: white;
+  border: 3px solid #aaadbc;
+  margin-bottom: 30px;
+  padding: 10px 0;
+}
+
+.three-block-middle input {
+  border: none;
+  width: 100%;
+}
+
+.text-middle-block-one {
+  max-width: 100%;
+  width: 30%;
+  color: #aaadbc;
+  background-color: white;
+  border: 3px solid #aaadbc;
+  margin-bottom: 30px;
+  padding: 10px 0;
+}
+
+.text-middle-block-two {
+  max-width: 100%;
+  width: 20%;
+  color: #aaadbc;
+  background-color: white;
+  border: 3px solid #aaadbc;
+  padding: 10px 0;
+}
+/*# sourceMappingURL=main.css.map */
